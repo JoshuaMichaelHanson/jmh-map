@@ -1,10 +1,6 @@
 # jmh-map
 This is a general purpose key/value map.
 
-# ES 6
-If you are using es 6 you may want to use the new Map object
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map
-
 ## Usage
 ```javascript
 var myCoolMap = Object.create(JmhMap);
@@ -53,3 +49,7 @@ Note you can have maps inside of maps.  You may store other complex objects that
 #### TODO
 1. Add check for initFromObject f(X) line 29
 2. If object has a jmhObjectType would have its own objectToString() line 70
+
+# ES 6
+If you are using es 6 you may want to use the new Map object
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map
